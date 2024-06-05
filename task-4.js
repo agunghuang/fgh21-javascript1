@@ -1,22 +1,25 @@
 let data = {
-    id: 1,
+  id: 1,
+  name: "Leanne Graham",
+  username: "Bret",
+  email: "Sincere@april.biz",
+  hobby: "fishing",
+  address:
+  {
+  street: "Kulas Light",
+  suite: "Apt. 556",
+  city: "Gwenborough",
+  zipcode: "92998-3874",
+  },
+  phone: "1-770-736-8031 x56442",
+  website: "hildegard.org",
+  };
+
+  const newData = {
+    ...data,
     name: "Agung Prabowo",
-    username: "Beceng",
     email: "agungprabowo92@gmail.com",
-    address: 
-    {
-    street: "Ngantay",
-    suite: "no.35",
-    city: "Cianjur",
-    zipcode: "43291",
-    },
-    phone: "0895397222055",
-    website: "binance.com",
-    }
-    const {
-        address: { street, city }
-      } = data;
-      
-      console.log(street); 
-      console.log(city);  
-      
+    hobby: "fishing",
+  };
+  
+  console.log(newData);
